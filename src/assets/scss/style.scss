@@ -48,3 +48,47 @@
     color: $pink;
   }
 }
+
+header {
+  position: relative;
+  margin-bottom: 60px;
+  border-bottom: 1px solid $gray-200;
+  width: 100%;
+
+  .navbar {
+    padding: 0;
+    height: 80px;
+
+    ul.navbar-nav {
+      li.nav-item {
+
+        &.active {
+          a.nav-link {
+            color: $pink;
+          }
+        }
+
+        a {
+          &.nav-link {
+            font-size: 16px;
+            letter-spacing: 1px;
+            color: $primary;
+            padding: 0 1rem;
+
+            &:hover {
+              &::after {
+                content: '';
+                display: block;
+                border-bottom: 2px solid $primary;
+                width: 50%;
+                margin: auto;
+                padding-bottom: 5px;
+                margin-bottom: -7px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

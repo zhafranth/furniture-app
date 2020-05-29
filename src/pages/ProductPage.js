@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 
+// Component
+import Navbar from "components/Header";
+
 export default class ProductPage extends Component {
   render() {
     return (
-      <div>
-        <h1>Hello from Product Page</h1>
-      </div>
+      <>
+        <Navbar {...this.props} />
+      </>
     );
   }
 }
