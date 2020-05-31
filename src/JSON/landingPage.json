@@ -1,0 +1,28 @@
+{
+  "categories": [{
+      "id": "kithcen-room",
+      "name": "Kithcen Room",
+      "image": "/images/category-1.png"
+    },
+    {
+      "id": "living-room",
+      "name": "Living Room",
+      "image": "/images/category-2.png"
+    },
+    {
+      "id": "office",
+      "name": "Office",
+      "image": "/images/category-3.png"
+    },
+    {
+      "id": "dining-room",
+      "name": "Dining Room",
+      "image": "/images/category-4.png"
+    },
+    {
+      "id": "bedroom",
+      "name": "Bedroom",
+      "image": "/images/category-5.png"
+    }
+  ]
+}
