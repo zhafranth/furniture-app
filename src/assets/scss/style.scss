@@ -119,6 +119,28 @@ section {
   text-align: center;
 }
 
+// Arrow Icon
+.arrow-icon {
+  color: rgb(197, 197, 197);
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+}
+
+// Card Body 
+.card-body {
+  font-size: 18px;
+
+  h5 {
+    font-weight: 400;
+  }
+
+  p {
+    font-weight: bold;
+    color: #FF926B;
+  }
+}
+
 // Category
 .card {
   border-radius: 25px;
