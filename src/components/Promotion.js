@@ -8,7 +8,7 @@ export default function Promotion() {
     <section className="container-fluid promotion">
       <div className="container">
         <div className="row">
-          <div className="offset-md-6 col-md-5 text-center mt-5">
+          <div className="offset-md-6 col-md-6 text-center mt-5">
             <h4>TRENDING PRODUCT</h4>
             <h2>
               CHAIRLIFT PRODUCT <br />
@@ -21,7 +21,6 @@ export default function Promotion() {
             <Button
               type="link"
               href="/product/all-product"
-              isPrimary
               className="btn mx-5"
               hasShadow
             >

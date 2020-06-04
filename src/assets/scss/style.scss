@@ -62,7 +62,6 @@ header {
 
     ul.navbar-nav {
       li.nav-item {
-
         &.active {
           a.nav-link {
             color: $pink;
@@ -78,7 +77,7 @@ header {
 
             &:hover {
               &::after {
-                content: '';
+                content: "";
                 display: block;
                 border-bottom: 2px solid $primary;
                 width: 50%;
@@ -100,6 +99,18 @@ section {
 }
 
 // Button
+.btn {
+  background-color: $primary;
+  border: none;
+  color: white;
+  width: 235px;
+  font-weight: 300;
+
+  &:hover {
+    color: white;
+  }
+}
+
 .btn-primary {
   background-color: $pink;
   border: none;
@@ -127,7 +138,7 @@ section {
   width: 50px;
 }
 
-// Card Body 
+// Card Body
 a {
   .card {
     .card-body {
@@ -139,7 +150,7 @@ a {
 
       p {
         font-weight: bold;
-        color: #FF926B;
+        color: #ff926b;
       }
     }
   }
@@ -189,15 +200,15 @@ a {
       right: 0;
       left: 0;
       transform: scale(1.1);
-      transition: .5s transform ease-in-out;
+      transition: 0.5s transform ease-in-out;
       z-index: 2;
-      @include gradient-y(rgba($black, 0), rgba($black, 0.51), 0%, 100%)
+      @include gradient-y(rgba($black, 0), rgba($black, 0.51), 0%, 100%);
     }
 
     .img-wrapper {
       z-index: 2;
       transform: scale(1.1);
-      transition: .25s transform ease-in-out;
+      transition: 0.25s transform ease-in-out;
     }
 
     .meta-wrapper {
@@ -209,7 +220,7 @@ a {
       z-index: 4;
       padding: 20px;
       transform: translateY(0);
-      transition: .3s transform ease-in-out;
+      transition: 0.3s transform ease-in-out;
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
@@ -228,9 +239,7 @@ a {
         transform: scale(1);
       }
     }
-
   }
-
 }
 
 // Promotion
@@ -240,10 +249,9 @@ a {
   background-size: cover;
   background-image: url("../images/bc-promotion.png");
 
-
   h4 {
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: 400;
     margin-bottom: 2rem;
   }
 
@@ -254,8 +262,60 @@ a {
 
   p {
     font-size: 18px;
-    font-weight: lighter;
-    color: #AB715C;
+    font-weight: 300;
+    color: #ab715c;
     margin: 3rem 0;
+  }
+}
+
+// Testimoni
+.testimoni {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 18px;
+  p {
+    font-weight: 300;
+    color: #9b8080;
+    font-style: italic;
+  }
+  img {
+    width: 80px;
+    height: auto;
+    margin: 1.5rem 0;
+  }
+}
+
+// Footer
+footer {
+  border-top: 1px solid $gray-200;
+  padding-top: 50px;
+
+  .brand-tagline {
+    margin-top: 8px;
+    color: $primary;
+    font-weight: 300;
+  }
+
+  .list-group-item {
+    padding: 0.3125rem 0;
+    border: 0;
+
+    a,
+    span {
+      color: $primary;
+      font-weight: 300;
+    }
+
+    a {
+      @include hover-focus {
+        color: $gray-800;
+      }
+    }
+  }
+
+  .copyrights {
+    margin: 50px 0;
+    font-weight: 300;
+    color: $primary;
   }
 }

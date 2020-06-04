@@ -1,5 +1,6 @@
 {
-  "categories": [{
+  "categories": [
+    {
       "id": "kithcen-room",
       "name": "Kithcen Room",
       "image": "/images/category-1.png"
@@ -25,7 +26,8 @@
       "image": "/images/category-5.png"
     }
   ],
-  "newArrival": [{
+  "newArrival": [
+    {
       "id": "lorm-arm-gray",
       "name": "Lorm Arm Gray",
       "price": "Rp. 210.000",
@@ -48,6 +50,38 @@
       "name": "Lorm Arm Gray",
       "price": "Rp. 569.750",
       "image": "/images/arrival4.png"
+    }
+  ],
+  "brands": [
+    {
+      "name": "Erik Jorgensen",
+      "image": "/images/brand1.png"
+    },
+    {
+      "name": "Andersen",
+      "image": "/images/brand2.png"
+    },
+    {
+      "name": "Northern",
+      "image": "/images/brand3.png"
+    },
+    {
+      "name": "Montana",
+      "image": "/images/brand4.png"
+    }
+  ],
+  "testimonial": [
+    {
+      "name": "Natasha Robinson",
+      "testimoni": " The BEST furniture store around. Service is unsurpassed anywhere. Can never go wrong with their quality. Delivery people are thoughtful and courteous. You really do get what you pay for and then some",
+      "point": "4",
+      "image": "/images/testimoni1.png"
+    },
+    {
+      "name": "Robin William",
+      "testimoni": "We have enjoyed a long relationship with Experienced Office Furniture and are very happy with all of their assistance from identifying our needs and then delivering on their promises. We will continue to use them for all of our office needs",
+      "point": "3.5",
+      "image": "/images/testimoni1.png"
     }
   ]
 }
