@@ -128,16 +128,24 @@ section {
 }
 
 // Card Body 
-.card-body {
-  font-size: 18px;
+a {
+  .card {
+    .card-body {
+      font-size: 18px;
 
-  h5 {
-    font-weight: 400;
+      h5 {
+        font-weight: 400;
+      }
+
+      p {
+        font-weight: bold;
+        color: #FF926B;
+      }
+    }
   }
 
-  p {
-    font-weight: bold;
-    color: #FF926B;
+  &:hover {
+    text-decoration: none;
   }
 }
 
@@ -223,4 +231,31 @@ section {
 
   }
 
+}
+
+// Promotion
+
+.promotion {
+  height: 433px;
+  background-size: cover;
+  background-image: url("../images/bc-promotion.png");
+
+
+  h4 {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #AB715C;
+    margin: 3rem 0;
+  }
 }

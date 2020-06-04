@@ -8,6 +8,7 @@ import Navbar from "components/Header";
 import Hero from "components/HeroLanding";
 import Category from "components/Categories";
 import NewArrival from "components/NewArrival";
+import Promotion from "components/Promotion";
 
 export default class HomePage extends Component {
   constructor(props) {
@@ -20,7 +21,8 @@ export default class HomePage extends Component {
         <Navbar {...this.props} />
         <Hero refShowProduct={this.refShowProduct} />
         <Category refShowProduct={this.refShowProduct} data={item.categories} />
-        <NewArrival />
+        <NewArrival data={item.newArrival} />
+        <Promotion />
       </>
     );
   }

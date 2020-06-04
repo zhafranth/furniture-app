@@ -6,9 +6,12 @@ import "@brainhubeu/react-carousel/lib/style.css";
 import { IoMdArrowDropleft } from "react-icons/io";
 import { IoMdArrowDropright } from "react-icons/io";
 
+// Component
+import CardProduct from "components/CardProduct";
+
 import image from "assets/images/chair.jpg";
 
-export default function NewArrival() {
+export default function NewArrival(props) {
   return (
     <section className="container">
       <h2 className="title-section mb-5">
@@ -24,34 +27,17 @@ export default function NewArrival() {
         arrowRight={<IoMdArrowDropright className="arrow-icon" />}
         addArrowClickHandler
       >
-        <div className="card">
-          <img src={image} className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5>Lorm arm gray</h5>
-            <p>Rp. 201.000</p>
-          </div>
-        </div>
-        <div className="card">
-          <img src={image} className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5>Lorm arm gray</h5>
-            <p>Rp. 201.000</p>
-          </div>
-        </div>
-        <div className="card">
-          <img src={image} className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5>Lorm arm gray</h5>
-            <p>Rp. 201.000</p>
-          </div>
-        </div>
-        <div className="card">
-          <img src={image} className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5>Lorm arm gray</h5>
-            <p>Rp. 201.000</p>
-          </div>
-        </div>
+        {props.data.map((item, index) => {
+          return (
+            <CardProduct
+              key={`Card-${index}`}
+              id={item.id}
+              image={item.image}
+              name={item.name}
+              price={item.price}
+            />
+          );
+        })}
       </Carousel>
     </section>
   );
