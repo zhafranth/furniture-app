@@ -10,7 +10,7 @@ export default function Brands(props) {
       <div className="row">
         {props.data.map((item, index) => {
           return (
-            <Fade bottom delay={300 * index}>
+            <Fade bottom delay={300 * index} key={index}>
               <div className="col-md-3 col-sm-6" key={`brand-${index}`}>
                 <img src={item.image} alt={item.name} style={{ width: 263 }} />
               </div>

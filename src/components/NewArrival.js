@@ -9,8 +9,6 @@ import { IoMdArrowDropright } from "react-icons/io";
 // Component
 import CardProduct from "components/CardProduct";
 
-import image from "assets/images/chair.jpg";
-
 export default function NewArrival(props) {
   return (
     <section className="container">

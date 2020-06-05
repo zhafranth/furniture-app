@@ -16,7 +16,7 @@ export default function HeroLanding(props) {
     });
   }
   return (
-    <div className="container">
+    <section className="container mt-5">
       <div className="row justify-content-between">
         <Fade left>
           <div className="col">
@@ -70,6 +70,6 @@ export default function HeroLanding(props) {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -1,0 +1,31 @@
+{
+  "product": [{
+      "id": "lorm-arm-gray",
+      "name": "Lorm Arm Gray",
+      "price": "Rp. 210.000",
+      "image": "/images/arrival.png",
+      "type": "kithcen-room"
+    },
+    {
+      "id": "2233",
+      "name": "Lorm Arm Gray",
+      "price": "Rp. 450.000",
+      "image": "/images/arrival2.png",
+      "type": "living-room"
+    },
+    {
+      "id": "4422",
+      "name": "Lorm Arm Gray",
+      "price": "Rp. 399.000",
+      "image": "/images/arrival3.png",
+      "type": "office"
+    },
+    {
+      "id": "22332",
+      "name": "Lorm Arm Gray",
+      "price": "Rp. 569.750",
+      "image": "/images/arrival4.png",
+      "type": "dining-room"
+    }
+  ]
+}
