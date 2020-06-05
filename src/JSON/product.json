@@ -7,25 +7,53 @@
       "type": "kithcen-room"
     },
     {
-      "id": "2233",
-      "name": "Lorm Arm Gray",
-      "price": "Rp. 450.000",
+      "id": "occasional-chairs",
+      "name": "Occasional Chairs",
+      "price": "Rp. 412.668",
       "image": "/images/arrival2.png",
-      "type": "living-room"
+      "type": "kithcen-room"
     },
     {
-      "id": "4422",
-      "name": "Lorm Arm Gray",
+      "id": "circle-chair",
+      "name": "Circle Chair",
       "price": "Rp. 399.000",
       "image": "/images/arrival3.png",
-      "type": "office"
+      "type": "kithcen-room"
     },
     {
-      "id": "22332",
-      "name": "Lorm Arm Gray",
+      "id": "washington-rope",
+      "name": "Washington Rope",
       "price": "Rp. 569.750",
       "image": "/images/arrival4.png",
-      "type": "dining-room"
+      "type": "kithcen-room"
+    },
+    {
+      "id": "modern-lamp",
+      "name": "Modern Gray Lamp",
+      "price": "Rp. 210.000",
+      "image": "/images/item-5.jpg",
+      "type": "kithcen-room"
+    },
+    {
+      "id": "trus-armchair",
+      "name": "Trush Armchair",
+      "price": "Rp. 450.000",
+      "image": "/images/item-7.jpg",
+      "type": "kithcen-room"
+    },
+    {
+      "id": "manhattan-sofa",
+      "name": "Manhattan Sofa",
+      "price": "Rp. 699.000",
+      "image": "/images/item-6.jpg",
+      "type": "kithcen-room"
+    },
+    {
+      "id": "grammercy-upholstered",
+      "name": "Grammercy Chair",
+      "price": "Rp. 1.250.999",
+      "image": "/images/item-10.jpg",
+      "type": "kithcen-room"
     }
   ]
 }

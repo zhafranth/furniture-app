@@ -140,6 +140,13 @@ section {
 // Card Body
 a {
   .card {
+    margin: 2rem 1rem;
+
+    img {
+      width: 262px;
+      height: 262px;
+    }
+
     .card-body {
       font-size: 18px;
 
@@ -272,11 +279,13 @@ a {
   text-align: center;
   margin-top: 2rem;
   font-size: 18px;
+
   p {
     font-weight: 300;
     color: #9b8080;
     font-style: italic;
   }
+
   img {
     width: 80px;
     height: auto;
@@ -323,7 +332,26 @@ footer {
 .hero-product {
   margin: 0;
   padding: 0;
-  img {
-    height: 563px;
+  margin-bottom: 2rem;
+
+  .img-hero {
+
+    img {
+      height: 533px;
+
+    }
+
+    &:after {
+      position: absolute;
+      content: "";
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      z-index: 2;
+      @include gradient-y(rgba($black, 0), rgba($black, 0.51), 0%, 100%);
+    }
   }
+
+
 }

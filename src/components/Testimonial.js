@@ -18,10 +18,7 @@ export default function Testimonial(props) {
                 <p>{`"${item.testimoni} "`}</p>
                 <img src={item.image} alt={item.name} />
                 <h3>{item.name}</h3>
-                <StarRatingComponent
-                  value={item.point}
-                  style={{ height: 18 }}
-                />
+                <StarRatingComponent value={item.point} />
               </div>
             );
           })}

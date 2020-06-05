@@ -22,7 +22,7 @@ export default function Categories(props) {
                 key={index}
                 className={`item colom-4${index === 0 ? " row-2" : " row-1"}`}
               >
-                <Fade bottom delay={2000}>
+                <Fade bottom>
                   <div className="card card-featured">
                     <figure className="img-wrapper">
                       <img
