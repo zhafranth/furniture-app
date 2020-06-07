@@ -10,6 +10,8 @@ import HeroProduct from "components/HeroProduct";
 import CardProduct from "components/CardProduct";
 import Footer from "components/Footer";
 import Categories from "components/Categories";
+import TitleProduct from "components/TitleProduct";
+import Button from "elements/Button";
 
 export default class ProductPage extends Component {
   constructor(props) {
@@ -26,22 +28,64 @@ export default class ProductPage extends Component {
     return tempProduct;
   };
 
+  getTitle = (slug) => {
+    const title = DataProduct.title.find((item) => item.id === slug);
+    return title;
+  };
+
+  getSlug = (id) => {
+    this.setState({
+      slug: id,
+    });
+  };
+
   render() {
     const product = this.getProduct(this.state.slug);
+    const title = this.getTitle(this.state.slug);
     // const price = product.map((item) => item.price);
-    console.log(this.state.slug);
+    console.log(product);
     return (
       <>
         <Navbar {...this.props} />
         <HeroProduct />
-        <Categories product data={DataLandingPage.categories} />
+        <section className="container">
+          <div className="row justify-content-center">
+            {DataLandingPage.categories.map((item, index) => {
+              return (
+                <div className="col-2" key={`card-${index}`}>
+                  <Button
+                    type="link"
+                    className="strached-link"
+                    href={`/product/${item.id}`}
+                  >
+                    <div
+                      className="card-category"
+                      onClick={() => this.getSlug(item.id)}
+                    >
+                      <figure className="img-wrapper">
+                        <img
+                          src={item.image}
+                          className="img-cover"
+                          alt={item.name}
+                        />
+                      </figure>
+                      <div className="title-category">
+                        <h4>{item.name}</h4>
+                      </div>
+                    </div>
+                  </Button>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+        <TitleProduct title={title.name} desc={title.desc} />
         <section className="container">
           <div className="row">
             {product.map((item, index) => {
               return (
-                <div className="col-md-3">
+                <div className="col-md-3" key={`Card-${index}`}>
                   <CardProduct
-                    key={`Card-${index}`}
                     id={item.id}
                     image={item.image}
                     name={item.name}

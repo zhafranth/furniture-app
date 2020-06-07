@@ -5,34 +5,6 @@ import Fade from "react-reveal/Fade";
 import Button from "elements/Button";
 
 export default function Categories(props) {
-  if (props.product) {
-    return (
-      <section className="container">
-        <div className="row justify-content-center">
-          {props.data.map((item, index) => {
-            return (
-              <div className="col-2" key={`card-${index}`}>
-                <Button type="link" href={`/product/${item.id}`}>
-                  <div className="card-category">
-                    <figure className="img-wrapper">
-                      <img
-                        src={item.image}
-                        className="img-cover"
-                        alt={item.name}
-                      />
-                    </figure>
-                    <div className="title-category">
-                      <h4>{item.name}</h4>
-                    </div>
-                  </div>
-                </Button>
-              </div>
-            );
-          })}
-        </div>
-      </section>
-    );
-  }
   return (
     <section
       className="container"

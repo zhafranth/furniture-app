@@ -1,4 +1,28 @@
 {
+  "title": [{
+      "id": "kithcen-room",
+      "name": "Kithcen Room",
+      "desc": "Kitchens were for cooking. We all have memories of our mothers (in some cases the father or both parents) slaving over a stove, working tirelessly over countertops, preparing delicious, filling and nutritious meals that the family enjoyed and savored together. In some cases children were told to keep out of the kitchen – mother’s workspace –  so that mother could prep and cook"
+    },
+    {
+      "id": "living-room",
+      "name": "Living Room",
+      "desc": "The living room is the space where the home owners and family members gather to spend time together. It’s a space designed for recreation but also for entertainment, the space where guests are welcomed whey visit."
+    },
+    {
+      "id": "office",
+      "name": "Office",
+      "desc": "An office room is a private closed office space, often it is called an office unit. When you hear office room or office unit, it means the same. Office rooms are for rent in multiple sizes. Often you rent a office room from 6 m2 up to 100 m2. The most of the office rooms are offered furnished in a business center. In multi-tenant buildings, it is more usual to supply your own furniture"
+    }, {
+      "id": "dining-room",
+      "name": "Dining Room",
+      "desc": "A dining room is a room for consuming food. In modern times it is usually adjacent to the kitchen for convenience in serving, although in medieval times it and an even number of un-armed side chairs along the long sides."
+    }, {
+      "id": "bedroom",
+      "name": "Bedroom",
+      "desc": "the bedroom space is important for two main reasons: home value and safety. The value of a home increases with bedroom number, so it is always in the best interest of the home seller to have as many rooms labeled “bedrooms” as is possible, particularly if a legitimate investment has been made on a room, space, or addition."
+    }
+  ],
   "product": [{
       "id": "lorm-arm-gray",
       "name": "Lorm Arm Gray",
@@ -54,6 +78,244 @@
       "price": "Rp. 1.250.999",
       "image": "/images/item-10.jpg",
       "type": "kithcen-room"
+    },
+    {
+      "id": "washington-rope",
+      "name": "Washington Rope",
+      "price": "Rp. 569.750",
+      "image": "/images/arrival4.png",
+      "type": "living-room"
+    },
+    {
+      "id": "modern-lamp",
+      "name": "Modern Gray Lamp",
+      "price": "Rp. 210.000",
+      "image": "/images/item-5.jpg",
+      "type": "living-room"
+    },
+    {
+      "id": "occasional-chairs",
+      "name": "Occasional Chairs",
+      "price": "Rp. 412.668",
+      "image": "/images/arrival2.png",
+      "type": "living-room"
+    },
+    {
+      "id": "circle-chair",
+      "name": "Circle Chair",
+      "price": "Rp. 399.000",
+      "image": "/images/arrival3.png",
+      "type": "living-room"
+    },
+
+    {
+      "id": "trus-armchair",
+      "name": "Trush Armchair",
+      "price": "Rp. 450.000",
+      "image": "/images/item-7.jpg",
+      "type": "living-room"
+    },
+
+    {
+      "id": "miracle-mirror",
+      "name": "Miracle Mirror",
+      "price": "Rp. 85.999",
+      "image": "/images/item-8.jpg",
+      "type": "living-room"
+    },
+    {
+      "id": "sierra-sofa",
+      "name": "Sierra Sofa",
+      "price": "Rp. 992.000",
+      "image": "/images/item-9.jpg",
+      "type": "living-room"
+    },
+    {
+      "id": "manhattan-sofa",
+      "name": "Manhattan Sofa",
+      "price": "Rp. 699.000",
+      "image": "/images/item-6.jpg",
+      "type": "living-room"
+    },
+    {
+      "id": "grammercy-upholstered",
+      "name": "Grammercy Chair",
+      "price": "Rp. 1.250.999",
+      "image": "/images/item-10.jpg",
+      "type": "office"
+    },
+
+    {
+      "id": "trus-armchair",
+      "name": "Trush Armchair",
+      "price": "Rp. 450.000",
+      "image": "/images/item-7.jpg",
+      "type": "office"
+    },
+    {
+      "id": "modern-lamp",
+      "name": "Modern Gray Lamp",
+      "price": "Rp. 210.000",
+      "image": "/images/item-5.jpg",
+      "type": "office"
+    },
+
+    {
+      "id": "miracle-mirror",
+      "name": "Miracle Mirror",
+      "price": "Rp. 85.999",
+      "image": "/images/item-8.jpg",
+      "type": "office"
+    },
+    {
+      "id": "lorm-arm-gray",
+      "name": "Lorm Arm Gray",
+      "price": "Rp. 210.000",
+      "image": "/images/arrival.png",
+      "type": "office"
+    },
+
+    {
+      "id": "circle-chair",
+      "name": "Circle Chair",
+      "price": "Rp. 399.000",
+      "image": "/images/arrival3.png",
+      "type": "office"
+    },
+
+    {
+      "id": "washington-rope",
+      "name": "Washington Rope",
+      "price": "Rp. 569.750",
+      "image": "/images/arrival4.png",
+      "type": "office"
+    },
+    {
+      "id": "occasional-chairs",
+      "name": "Occasional Chairs",
+      "price": "Rp. 412.668",
+      "image": "/images/arrival2.png",
+      "type": "office"
+    },
+    {
+      "id": "grammercy-upholstered",
+      "name": "Grammercy Chair",
+      "price": "Rp. 1.250.999",
+      "image": "/images/item-10.jpg",
+      "type": "office"
+    },
+
+
+
+
+
+
+    {
+      "id": "occasional-chairs",
+      "name": "Occasional Chairs",
+      "price": "Rp. 412.668",
+      "image": "/images/arrival2.png",
+      "type": "dining-room"
+    },
+    {
+      "id": "trus-armchair",
+      "name": "Trush Armchair",
+      "price": "Rp. 450.000",
+      "image": "/images/item-7.jpg",
+      "type": "dining-room"
+    },
+
+    {
+      "id": "grammercy-upholstered",
+      "name": "Grammercy Chair",
+      "price": "Rp. 1.250.999",
+      "image": "/images/item-10.jpg",
+      "type": "dining-room"
+    },
+    {
+      "id": "miracle-mirror",
+      "name": "Miracle Mirror",
+      "price": "Rp. 85.999",
+      "image": "/images/item-8.jpg",
+      "type": "dining-room"
+    },
+
+    {
+      "id": "sierra-sofa",
+      "name": "Sierra Sofa",
+      "price": "Rp. 992.000",
+      "image": "/images/item-9.jpg",
+      "type": "dining-room"
+    },
+
+    {
+      "id": "washington-rope",
+      "name": "Washington Rope",
+      "price": "Rp. 569.750",
+      "image": "/images/arrival4.png",
+      "type": "dining-room"
+    },
+    {
+      "id": "lorm-arm-gray",
+      "name": "Lorm Arm Gray",
+      "price": "Rp. 210.000",
+      "image": "/images/arrival.png",
+      "type": "dining-room"
+    },
+
+
+
+    {
+      "id": "occasional-chairs",
+      "name": "Occasional Chairs",
+      "price": "Rp. 412.668",
+      "image": "/images/arrival2.png",
+      "type": "bedroom"
+    },
+    {
+      "id": "modern-lamp",
+      "name": "Modern Gray Lamp",
+      "price": "Rp. 210.000",
+      "image": "/images/item-5.jpg",
+      "type": "bedroom"
+    },
+
+    {
+      "id": "washington-rope",
+      "name": "Washington Rope",
+      "price": "Rp. 569.750",
+      "image": "/images/arrival4.png",
+      "type": "bedroom"
+    },
+    {
+      "id": "sierra-sofa",
+      "name": "Sierra Sofa",
+      "price": "Rp. 992.000",
+      "image": "/images/item-9.jpg",
+      "type": "bedroom"
+    },
+
+    {
+      "id": "grammercy-upholstered",
+      "name": "Grammercy Chair",
+      "price": "Rp. 1.250.999",
+      "image": "/images/item-10.jpg",
+      "type": "bedroom"
+    },
+
+    {
+      "id": "manhattan-sofa",
+      "name": "Manhattan Sofa",
+      "price": "Rp. 699.000",
+      "image": "/images/item-6.jpg",
+      "type": "bedroom"
+    },
+    {
+      "id": "circle-chair",
+      "name": "Circle Chair",
+      "price": "Rp. 399.000",
+      "image": "/images/arrival3.png",
+      "type": "bedroom"
     }
   ]
 }
