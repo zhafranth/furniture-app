@@ -17,34 +17,36 @@ export default function Categories(props) {
         </h2>
         <div className="container-grid">
           {props.data.map((item, index) => {
-            return (
-              <div
-                key={index}
-                className={`item colom-4${index === 0 ? " row-2" : " row-1"}`}
-              >
-                <Fade bottom>
-                  <div className="card card-featured">
-                    <figure className="img-wrapper">
-                      <img
-                        src={item.image}
-                        alt={item.name}
-                        className="img-cover"
-                      />
-                    </figure>
-                    <div className="meta-wrapper">
-                      <Button
-                        type="link"
-                        className="d-block text-white strached-link"
-                        href={`/product/${item.id}`}
-                      >
-                        <h5>{item.name}</h5>
-                      </Button>
-                      <span className="font-weight-light">SHOP NOW</span>
+            if (index != 0) {
+              return (
+                <div
+                  key={index}
+                  className={`item colom-4${index === 1 ? " row-2" : " row-1"}`}
+                >
+                  <Fade bottom>
+                    <div className="card card-featured">
+                      <figure className="img-wrapper">
+                        <img
+                          src={item.image}
+                          alt={item.name}
+                          className="img-cover"
+                        />
+                      </figure>
+                      <div className="meta-wrapper">
+                        <Button
+                          type="link"
+                          className="d-block text-white strached-link"
+                          href={`/product/${item.id}`}
+                        >
+                          <h5>{item.name}</h5>
+                        </Button>
+                        <span className="font-weight-light">SHOP NOW</span>
+                      </div>
                     </div>
-                  </div>
-                </Fade>
-              </div>
-            );
+                  </Fade>
+                </div>
+              );
+            }
           })}
         </div>
       </Fade>

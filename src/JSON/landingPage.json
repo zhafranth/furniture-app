@@ -1,5 +1,9 @@
 {
-  "categories": [
+  "categories": [{
+      "id": "all-product",
+      "name": "All Product",
+      "image": "/images/hero.png"
+    },
     {
       "id": "kithcen-room",
       "name": "Kithcen Room",
@@ -26,8 +30,7 @@
       "image": "/images/category-5.png"
     }
   ],
-  "newArrival": [
-    {
+  "newArrival": [{
       "id": "lorm-arm-gray",
       "name": "Lorm Arm Gray",
       "price": "Rp. 210.000",
@@ -52,8 +55,7 @@
       "image": "/images/arrival4.png"
     }
   ],
-  "brands": [
-    {
+  "brands": [{
       "name": "Erik Jorgensen",
       "image": "/images/brand1.png"
     },
@@ -70,8 +72,7 @@
       "image": "/images/brand4.png"
     }
   ],
-  "testimonial": [
-    {
+  "testimonial": [{
       "name": "Natasha Robinson",
       "testimoni": " The BEST furniture store around. Service is unsurpassed anywhere. Can never go wrong with their quality. Delivery people are thoughtful and courteous. You really do get what you pay for and then some",
       "point": "4",
