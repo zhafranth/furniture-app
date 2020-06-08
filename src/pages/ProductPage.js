@@ -9,7 +9,6 @@ import Navbar from "components/Header";
 import HeroProduct from "components/HeroProduct";
 import CardProduct from "components/CardProduct";
 import Footer from "components/Footer";
-import Categories from "components/Categories";
 import TitleProduct from "components/TitleProduct";
 import Button from "elements/Button";
 
@@ -22,10 +21,20 @@ export default class ProductPage extends Component {
   }
 
   getProduct = (slug) => {
-    const tempProduct = DataProduct.product.filter(
-      (item) => item.type === slug
-    );
-    return tempProduct;
+    if (slug === "all-product") {
+      const temp = DataProduct.product.filter((item) => item._id);
+      const tempT = DataProduct.product.map((item) => {
+        delete item.type;
+        return item;
+      });
+      console.log(tempT);
+      return temp;
+    } else {
+      const tempProduct = DataProduct.product.filter(
+        (item) => item.type === slug
+      );
+      return tempProduct;
+    }
   };
 
   getTitle = (slug) => {
@@ -43,7 +52,7 @@ export default class ProductPage extends Component {
     const product = this.getProduct(this.state.slug);
     const title = this.getTitle(this.state.slug);
     // const price = product.map((item) => item.price);
-    console.log(product);
+    // console.log(product);
     return (
       <>
         <Navbar {...this.props} />
