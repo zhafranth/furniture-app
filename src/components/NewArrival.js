@@ -10,7 +10,6 @@ import { IoMdArrowDropright } from "react-icons/io";
 import CardProduct from "components/CardProduct";
 
 export default function NewArrival(props) {
-  props.getType("cuki");
   return (
     <section className="container">
       <h2 className="title-section">
@@ -34,7 +33,6 @@ export default function NewArrival(props) {
               image={item.image}
               name={item.name}
               price={item.price}
-              clicked={getType(item.type)}
             />
           );
         })}

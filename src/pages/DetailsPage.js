@@ -6,7 +6,7 @@ import DataProduct from "JSON/product.json";
 // Component
 import Footer from "components/Footer";
 import Navbar from "components/Header";
-import SimilarItems from "components/NewArrival";
+import CardDetailProduct from "components/CardDetailProduct";
 
 export default class DetailsPage extends Component {
   constructor(props) {
@@ -21,19 +21,9 @@ export default class DetailsPage extends Component {
     const product = DataProduct.product.find((item) => item.id === slug);
     return product;
   };
-  getProduct = (slug) => {
-    const product = DataProduct.product.filter((item) => item.id === slug);
-    return product;
-  };
 
-  getType = (type) => {
-    this.setState({
-      type: type,
-    });
-  };
   render() {
     const productDetail = this.getProductDetail(this.state.slug);
-    const product = this.getProduct(this.state.slug);
     console.log(productDetail);
     return (
       <div className="container">
@@ -50,11 +40,13 @@ export default class DetailsPage extends Component {
               </figure>
             </div>
             <div className="col-4">
-              <h1>{productDetail.name}</h1>
+              <CardDetailProduct
+                name={productDetail.name}
+                price={productDetail.price}
+              />
             </div>
           </div>
         </section>
-        <SimilarItems data={product} getType={getType} />
         <Footer />
       </div>
     );
