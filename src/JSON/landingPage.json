@@ -34,25 +34,29 @@
       "id": "lorm-arm-gray",
       "name": "Lorm Arm Gray",
       "price": "Rp. 210.000",
-      "image": "/images/arrival.png"
+      "image": "/images/arrival.png",
+      "type": "kithcen-room"
     },
     {
       "id": "lorm-arm-gray",
       "name": "Lorm Arm Gray",
       "price": "Rp. 450.000",
-      "image": "/images/arrival2.png"
+      "image": "/images/arrival2.png",
+      "type": "kithcen-room"
     },
     {
       "id": "lorm-arm-gray",
       "name": "Lorm Arm Gray",
       "price": "Rp. 399.000",
-      "image": "/images/arrival3.png"
+      "image": "/images/arrival3.png",
+      "type": "kithcen-room"
     },
     {
       "id": "lorm-arm-gray",
       "name": "Lorm Arm Gray",
       "price": "Rp. 569.750",
-      "image": "/images/arrival4.png"
+      "image": "/images/arrival4.png",
+      "type": "kithcen-room"
     }
   ],
   "brands": [{

@@ -13,16 +13,28 @@ export default class DetailsPage extends Component {
     super(props);
     this.state = {
       slug: this.props.match.params.slugItemDetails,
+      type: "all-product",
     };
   }
 
-  getProduct = (slug) => {
+  getProductDetail = (slug) => {
     const product = DataProduct.product.find((item) => item.id === slug);
     return product;
   };
+  getProduct = (slug) => {
+    const product = DataProduct.product.filter((item) => item.id === slug);
+    return product;
+  };
+
+  getType = (type) => {
+    this.setState({
+      type: type,
+    });
+  };
   render() {
+    const productDetail = this.getProductDetail(this.state.slug);
     const product = this.getProduct(this.state.slug);
-    console.log(product);
+    console.log(productDetail);
     return (
       <div className="container">
         <Navbar {...this.props} />
@@ -31,17 +43,18 @@ export default class DetailsPage extends Component {
             <div className="col-md-5 offset-1">
               <figure className="img-wrapper">
                 <img
-                  src={product.image}
-                  alt={product.name}
+                  src={productDetail.image}
+                  alt={productDetail.name}
                   className="img-cover"
                 />
               </figure>
             </div>
             <div className="col-4">
-              <h1>{product.name}</h1>
+              <h1>{productDetail.name}</h1>
             </div>
           </div>
         </section>
+        <SimilarItems data={product} getType={getType} />
         <Footer />
       </div>
     );
