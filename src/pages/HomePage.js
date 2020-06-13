@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 // Data
 import item from "JSON/landingPage.json";
+import product from "JSON/product.json";
 
 // component
 import Navbar from "components/Header";
@@ -19,12 +20,16 @@ export default class HomePage extends Component {
     this.refShowProduct = React.createRef();
   }
   render() {
+    const newArrivalProduct = product.product.filter(
+      (item) => item.newArrival === true
+    );
+    console.log(newArrivalProduct);
     return (
       <>
         <Navbar {...this.props} />
         <Hero refShowProduct={this.refShowProduct} />
         <Category refShowProduct={this.refShowProduct} data={item.categories} />
-        <NewArrival data={item.newArrival} />
+        <NewArrival data={newArrivalProduct} />
         <Promotion />
         <Brands data={item.brands} />
         <Testimonial data={item.testimonial} />

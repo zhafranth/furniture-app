@@ -34,7 +34,9 @@
       "name": "Lorm Arm Gray",
       "price": "Rp. 210.000",
       "image": "/images/arrival.png",
-      "type": "kithcen-room"
+      "type": "kithcen-room",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "occasional-chairs",
@@ -42,7 +44,9 @@
       "name": "Occasional Chairs",
       "price": "Rp. 412.668",
       "image": "/images/arrival2.png",
-      "type": "kithcen-room"
+      "type": "kithcen-room",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "circle-chair",
@@ -50,7 +54,9 @@
       "name": "Circle Chair",
       "price": "Rp. 399.000",
       "image": "/images/arrival3.png",
-      "type": "kithcen-room"
+      "type": "kithcen-room",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "washington-rope",
@@ -58,7 +64,9 @@
       "name": "Washington Rope",
       "price": "Rp. 569.750",
       "image": "/images/arrival4.png",
-      "type": "kithcen-room"
+      "type": "kithcen-room",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "modern-lamp",
@@ -66,7 +74,9 @@
       "name": "Modern Gray Lamp",
       "price": "Rp. 210.000",
       "image": "/images/item-5.jpg",
-      "type": "kithcen-room"
+      "type": "kithcen-room",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "trus-armchair",
@@ -74,7 +84,9 @@
       "name": "Trush Armchair",
       "price": "Rp. 450.000",
       "image": "/images/item-7.jpg",
-      "type": "kithcen-room"
+      "type": "kithcen-room",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "manhattan-sofa",
@@ -82,7 +94,9 @@
       "name": "Manhattan Sofa",
       "price": "Rp. 699.000",
       "image": "/images/item-6.jpg",
-      "type": "kithcen-room"
+      "type": "kithcen-room",
+      "point": "4",
+      "newArrival": true
     },
     {
       "id": "grammercy-upholstered",
@@ -90,7 +104,9 @@
       "name": "Grammercy Chair",
       "price": "Rp. 1.250.999",
       "image": "/images/item-10.jpg",
-      "type": "kithcen-room"
+      "type": "kithcen-room",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "washington-rope",
@@ -98,7 +114,9 @@
       "name": "Washington Rope",
       "price": "Rp. 569.750",
       "image": "/images/arrival4.png",
-      "type": "living-room"
+      "type": "living-room",
+      "point": "4",
+      "newArrival": true
     },
     {
       "id": "modern-lamp",
@@ -106,7 +124,9 @@
       "name": "Modern Gray Lamp",
       "price": "Rp. 210.000",
       "image": "/images/item-5.jpg",
-      "type": "living-room"
+      "type": "living-room",
+      "point": "4",
+      "newArrival": true
     },
     {
       "id": "occasional-chairs",
@@ -114,7 +134,9 @@
       "name": "Occasional Chairs",
       "price": "Rp. 412.668",
       "image": "/images/arrival2.png",
-      "type": "living-room"
+      "type": "living-room",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "circle-chair",
@@ -122,7 +144,9 @@
       "name": "Circle Chair",
       "price": "Rp. 399.000",
       "image": "/images/arrival3.png",
-      "type": "living-room"
+      "type": "living-room",
+      "point": "4",
+      "newArrival": false
     },
 
     {
@@ -131,7 +155,9 @@
       "name": "Trush Armchair",
       "price": "Rp. 450.000",
       "image": "/images/item-7.jpg",
-      "type": "living-room"
+      "type": "living-room",
+      "point": "4",
+      "newArrival": false
     },
 
     {
@@ -140,7 +166,9 @@
       "name": "Miracle Mirror",
       "price": "Rp. 85.999",
       "image": "/images/item-8.jpg",
-      "type": "living-room"
+      "type": "living-room",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "sierra-sofa",
@@ -148,7 +176,9 @@
       "name": "Sierra Sofa",
       "price": "Rp. 992.000",
       "image": "/images/item-9.jpg",
-      "type": "living-room"
+      "type": "living-room",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "manhattan-sofa",
@@ -156,7 +186,9 @@
       "name": "Manhattan Sofa",
       "price": "Rp. 699.000",
       "image": "/images/item-6.jpg",
-      "type": "living-room"
+      "type": "living-room",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "grammercy-upholstered",
@@ -164,7 +196,9 @@
       "name": "Grammercy Chair",
       "price": "Rp. 1.250.999",
       "image": "/images/item-10.jpg",
-      "type": "office"
+      "type": "office",
+      "point": "4",
+      "newArrival": false
     },
 
     {
@@ -173,7 +207,9 @@
       "name": "Trush Armchair",
       "price": "Rp. 450.000",
       "image": "/images/item-7.jpg",
-      "type": "office"
+      "type": "office",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "modern-lamp",
@@ -181,7 +217,9 @@
       "name": "Modern Gray Lamp",
       "price": "Rp. 210.000",
       "image": "/images/item-5.jpg",
-      "type": "office"
+      "type": "office",
+      "point": "4",
+      "newArrival": false
     },
 
     {
@@ -190,7 +228,9 @@
       "name": "Miracle Mirror",
       "price": "Rp. 85.999",
       "image": "/images/item-8.jpg",
-      "type": "office"
+      "type": "office",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "lorm-arm-gray",
@@ -198,7 +238,9 @@
       "name": "Lorm Arm Gray",
       "price": "Rp. 210.000",
       "image": "/images/arrival.png",
-      "type": "office"
+      "type": "office",
+      "point": "4",
+      "newArrival": false
     },
 
     {
@@ -207,7 +249,9 @@
       "name": "Circle Chair",
       "price": "Rp. 399.000",
       "image": "/images/arrival3.png",
-      "type": "office"
+      "type": "office",
+      "point": "4",
+      "newArrival": false
     },
 
     {
@@ -216,7 +260,9 @@
       "name": "Washington Rope",
       "price": "Rp. 569.750",
       "image": "/images/arrival4.png",
-      "type": "office"
+      "type": "office",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "occasional-chairs",
@@ -224,7 +270,9 @@
       "name": "Occasional Chairs",
       "price": "Rp. 412.668",
       "image": "/images/arrival2.png",
-      "type": "office"
+      "type": "office",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "grammercy-upholstered",
@@ -232,21 +280,19 @@
       "name": "Grammercy Chair",
       "price": "Rp. 1.250.999",
       "image": "/images/item-10.jpg",
-      "type": "office"
+      "type": "office",
+      "point": "4",
+      "newArrival": false
     },
-
-
-
-
-
-
     {
       "id": "occasional-chairs",
       "_id": "2",
       "name": "Occasional Chairs",
       "price": "Rp. 412.668",
       "image": "/images/arrival2.png",
-      "type": "dining-room"
+      "type": "dining-room",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "trus-armchair",
@@ -254,7 +300,9 @@
       "name": "Trush Armchair",
       "price": "Rp. 450.000",
       "image": "/images/item-7.jpg",
-      "type": "dining-room"
+      "type": "dining-room",
+      "point": "4",
+      "newArrival": false
     },
 
     {
@@ -263,7 +311,9 @@
       "name": "Grammercy Chair",
       "price": "Rp. 1.250.999",
       "image": "/images/item-10.jpg",
-      "type": "dining-room"
+      "type": "dining-room",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "miracle-mirror",
@@ -271,7 +321,9 @@
       "name": "Miracle Mirror",
       "price": "Rp. 85.999",
       "image": "/images/item-8.jpg",
-      "type": "dining-room"
+      "type": "dining-room",
+      "point": "4",
+      "newArrival": false
     },
 
     {
@@ -280,7 +332,9 @@
       "name": "Sierra Sofa",
       "price": "Rp. 992.000",
       "image": "/images/item-9.jpg",
-      "type": "dining-room"
+      "type": "dining-room",
+      "point": "4",
+      "newArrival": false
     },
 
     {
@@ -289,7 +343,9 @@
       "name": "Washington Rope",
       "price": "Rp. 569.750",
       "image": "/images/arrival4.png",
-      "type": "dining-room"
+      "type": "dining-room",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "lorm-arm-gray",
@@ -297,7 +353,9 @@
       "name": "Lorm Arm Gray",
       "price": "Rp. 210.000",
       "image": "/images/arrival.png",
-      "type": "dining-room"
+      "type": "dining-room",
+      "point": "4",
+      "newArrival": false
     },
 
 
@@ -308,7 +366,9 @@
       "name": "Occasional Chairs",
       "price": "Rp. 412.668",
       "image": "/images/arrival2.png",
-      "type": "bedroom"
+      "type": "bedroom",
+      "point": "4",
+      "newArrival": true
     },
     {
       "id": "modern-lamp",
@@ -316,7 +376,9 @@
       "name": "Modern Gray Lamp",
       "price": "Rp. 210.000",
       "image": "/images/item-5.jpg",
-      "type": "bedroom"
+      "type": "bedroom",
+      "point": "4",
+      "newArrival": false
     },
 
     {
@@ -325,7 +387,9 @@
       "name": "Washington Rope",
       "price": "Rp. 569.750",
       "image": "/images/arrival4.png",
-      "type": "bedroom"
+      "type": "bedroom",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "sierra-sofa",
@@ -333,7 +397,9 @@
       "name": "Sierra Sofa",
       "price": "Rp. 992.000",
       "image": "/images/item-9.jpg",
-      "type": "bedroom"
+      "type": "bedroom",
+      "point": "4",
+      "newArrival": true
     },
 
     {
@@ -342,7 +408,9 @@
       "name": "Grammercy Chair",
       "price": "Rp. 1.250.999",
       "image": "/images/item-10.jpg",
-      "type": "bedroom"
+      "type": "bedroom",
+      "point": "4",
+      "newArrival": false
     },
 
     {
@@ -351,7 +419,9 @@
       "name": "Manhattan Sofa",
       "price": "Rp. 699.000",
       "image": "/images/item-6.jpg",
-      "type": "bedroom"
+      "type": "bedroom",
+      "point": "4",
+      "newArrival": false
     },
     {
       "id": "circle-chair",
@@ -359,7 +429,9 @@
       "name": "Circle Chair",
       "price": "Rp. 399.000",
       "image": "/images/arrival3.png",
-      "type": "bedroom"
+      "type": "bedroom",
+      "point": "4",
+      "newArrival": false
     }
   ]
 }

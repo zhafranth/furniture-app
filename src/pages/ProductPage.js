@@ -21,7 +21,13 @@ export default class ProductPage extends Component {
   }
 
   getProduct = (slug) => {
-    if (slug === "all-product") {
+    if (slug != "all-product") {
+      const tempProduct = DataProduct.product.filter(
+        (item) => item.type === slug
+      );
+      console.log(tempProduct);
+      return tempProduct;
+    } else {
       const temp = DataProduct.product.filter((item) => item._id);
       const tempT = DataProduct.product.map((item) => {
         delete item.type;
@@ -29,11 +35,6 @@ export default class ProductPage extends Component {
       });
       console.log(tempT);
       return temp;
-    } else {
-      const tempProduct = DataProduct.product.filter(
-        (item) => item.type === slug
-      );
-      return tempProduct;
     }
   };
 
@@ -52,7 +53,7 @@ export default class ProductPage extends Component {
     const product = this.getProduct(this.state.slug);
     const title = this.getTitle(this.state.slug);
     // const price = product.map((item) => item.price);
-    // console.log(product);
+    console.log(this.state.slug);
     return (
       <>
         <Navbar {...this.props} />

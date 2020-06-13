@@ -43,6 +43,7 @@ export default class DetailsPage extends Component {
               <CardDetailProduct
                 name={productDetail.name}
                 price={productDetail.price}
+                point={productDetail.point}
               />
             </div>
           </div>

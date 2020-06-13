@@ -162,7 +162,6 @@ a {
 }
 
 .card-category {
-
   position: relative;
   width: 165px;
   height: 113px;
@@ -204,7 +203,6 @@ a {
     align-items: center;
     justify-content: center;
   }
-
 }
 
 // Category
@@ -289,8 +287,10 @@ a {
   }
 
   &.card-detail {
-    border: 1px solid #EDEDED;
+    border: 1px solid #ededed;
     border-radius: 25px;
+    width: 457px;
+    padding: 30px;
 
     h5,
     h4 {
@@ -302,7 +302,39 @@ a {
         font-weight: 300;
       }
     }
+    .star {
+      font-size: 30px;
+      i {
+        margin: 0 3px;
+      }
+    }
+  }
+  .conter {
+    button {
+      width: 30px;
+      height: 30px;
+      border: none;
+      color: white;
 
+      &:focus {
+        outline: none;
+      }
+      background-color: $pink;
+    }
+    .minus {
+      border-radius: 25px 0 0 25px;
+    }
+    .plus {
+      border-radius: 0 25px 25px 0;
+    }
+    input {
+      text-align: center;
+      color: $primary;
+      width: 40px;
+      height: 30px;
+      background-color: #ececec;
+      border: none;
+    }
   }
 }
 
@@ -395,7 +427,6 @@ footer {
   .img-hero {
     img {
       height: 533px;
-
     }
 
     &:after {
@@ -408,7 +439,5 @@ footer {
       z-index: 2;
       @include gradient-y(rgba($black, 0), rgba($black, 0.51), 0%, 100%);
     }
-
-
   }
 }
