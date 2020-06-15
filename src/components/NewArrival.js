@@ -1,4 +1,5 @@
 import React from "react";
+// Carousel
 import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 
