@@ -26,30 +26,32 @@ export default class DetailsPage extends Component {
     const productDetail = this.getProductDetail(this.state.slug);
     console.log(productDetail);
     return (
-      <div className="container">
+      <>
         <Navbar {...this.props} />
-        <section className="mt-5">
-          <div className="row">
-            <div className="col-md-5 offset-1">
-              <figure className="img-wrapper">
-                <img
-                  src={productDetail.image}
-                  alt={productDetail.name}
-                  className="img-cover"
+        <div className="container">
+          <section className="mt-5">
+            <div className="row">
+              <div className="col-md-5 offset-1">
+                <figure className="img-wrapper">
+                  <img
+                    src={productDetail.image}
+                    alt={productDetail.name}
+                    className="img-cover"
+                  />
+                </figure>
+              </div>
+              <div className="col-4">
+                <CardDetailProduct
+                  name={productDetail.name}
+                  price={productDetail.price}
+                  point={productDetail.point}
                 />
-              </figure>
+              </div>
             </div>
-            <div className="col-4">
-              <CardDetailProduct
-                name={productDetail.name}
-                price={productDetail.price}
-                point={productDetail.point}
-              />
-            </div>
-          </div>
-        </section>
-        <Footer />
-      </div>
+          </section>
+          <Footer />
+        </div>
+      </>
     );
   }
 }
