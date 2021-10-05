@@ -11,6 +11,7 @@ import CardProduct from "components/CardProduct";
 import Footer from "components/Footer";
 import TitleProduct from "components/TitleProduct";
 import Button from "elements/Button";
+import { Link } from "react-router-dom";
 
 export default class ProductPage extends Component {
   constructor(props) {
@@ -106,6 +107,7 @@ export default class ProductPage extends Component {
             })}
           </div>
         </section>
+        <Link to="/product/example">example</Link>
         <Footer />
       </>
     );
